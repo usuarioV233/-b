@@ -1,0 +1,57 @@
+/*esse eu fiz rapidamente*/
+
+
+
+body {
+  padding: 120px;
+  min-height: 100vh;
+  background: linear-gradient(#2b1055, #7597de);
+}
+img {
+  margin-top: 140px;
+  height: 340px;
+  width: 470px;
+  box-shadow: 6px 6px 2em rgb(155, 197, 19);
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover {
+  text-decoration: none;
+  color: aquamarine;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #241143;
+}
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+.header ul li a {
+  padding: 6px 15px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+}
+.header ul li a:hover {
+  color: #2b1055;
+  background: #fff;
+}
+img2 {
+  box-shadow: 6px 6px 2em green;
+}

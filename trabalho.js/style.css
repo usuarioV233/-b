@@ -1,0 +1,119 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(#2b1055, #7597de);
+
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: #241143;
+}
+.header .bsoftimg {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+.header ul li a {
+  padding: 6px 15px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 20px;
+}
+.header ul li a:hover {
+  color: #2b1055;
+  background: #fff;
+}
+.conteiner {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.card1 {
+  width: 300px;
+  height: 530px;
+  background-color: #241143;
+  border-radius: 15px;
+  margin-top: 240px;
+  box-shadow: 6px 6px 2em purple;
+}
+.imagem1 {
+  display: flex;
+  justify-content: center;
+  
+}
+.img1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.text-main1 {
+  text-align: center;
+  color: bisque;
+  font-family:"Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.desk1 {
+  font-family: "Poppins", sans-serif;
+  color: bisque;
+  font-weight: 200;
+  text-align: center;
+  font-size: 15px;
+ margin: 10px;
+}
+.btn1 {
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+  transition: 1s;
+  background-color: #2b1055;
+  color: bisque;
+  cursor: pointer;
+}
+.btn1 a {
+  text-decoration: none;
+  color: bisque;
+}
+.btn1:hover{
+transition: 1s;
+background-color: #7597de;
+color: bisque;
+
+}
+.button1 {
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+}
